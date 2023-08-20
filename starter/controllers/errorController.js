@@ -1,5 +1,7 @@
 module.exports = (err, req, res, next) => {
   //console.log(err.stack); //stackTrace show us where the error happen
+  //conaskdn,asnd
+  //jajcsbjasbkdkjasd
   err.statusCode = err.statusCode || 500;
   err.status = err.status || 'error';
 
@@ -9,3 +11,4 @@ module.exports = (err, req, res, next) => {
   });
   next();
 };
+
